@@ -42,16 +42,6 @@ while True:
                 )
 
                 cv2.drawContours(annotated_frame, contours, -1, (0, 0, 255), 2)
-
-                # if(person_id == 1):
-                #     cv2.putText(annotated_frame,
-                #                 f'Zakaria Number {person_id}',
-                #                 (int(x1), int(y1)-10),
-                #                 cv2.FONT_ITALIC,
-                #                 1,
-                #                 (255, 255, 255),
-                #                 7
-                #                 )
                 cv2.putText(annotated_frame,
                 f'Shakhs Number: {person_id}',
                 (int(x1), int(y1)-10),
